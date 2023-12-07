@@ -12,7 +12,7 @@ namespace Assignment2
     {
         static void Main(string[] args)
         {
-            Employee e1 = new Employee(1, "Ritik", 123.56);
+            Employee e1 = new Employee(1, "xyz", 123.56);
             e1.displayData();
         }
     }
@@ -52,7 +52,7 @@ namespace Assignment2
     {
         static void Main(string[] args)
         {
-            Bank b1 = new Bank(12345, "Ritik", 1000);
+            Bank b1 = new Bank(12345, "xyz", 4000);
             b1.displayData();
         }
     }
@@ -149,8 +149,8 @@ namespace Assignment2
     {
         static void Main(string[] args)
         {
-            Logger.setNameAndPassword("Ritik", 1234);
-            Logger.Login("Ritik", 1234);
+            Logger.setNameAndPassword("xyz", 1234);
+            Logger.Login("xyz", 1234);
 
         }
     }
@@ -237,7 +237,7 @@ namespace Assignment2
     {
         static void Main(string[] args)
         {
-            Person p1 = new Person("Ritik", "Kaushik");
+            Person p1 = new Person("Sakshi", "varshney");
             p1.showDetails();
 
         }
